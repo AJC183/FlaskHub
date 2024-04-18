@@ -1,0 +1,16 @@
+{% extends "layout.html" %} <!-- Extends the layout.html template -->
+
+{% block content %} <!-- Begins the content block -->
+    {% for post in posts %} <!-- Iterates over each post in the posts list -->
+        <article class="media content-section"> <!-- Defines an article section for each post -->
+          <div class="media-body"> <!-- Media body section for post content -->
+            <div class="article-metadata"> <!-- Metadata section for post author and date -->
+              <a class="mr-2" href="#">{{ post.author }}</a> <!-- Author link -->
+              <small class="text-muted">{{ post.date_posted }}</small> <!-- Date posted -->
+            </div>
+            <h2><a class="article-title" href="#">{{ post.title }}</a></h2> <!-- Post title -->
+            <p class="article-content">{{ post.content }}</p> <!-- Post content -->
+          </div>
+        </article>
+    {% endfor %} <!-- End of the for loop -->
+{% endblock content %} <!-- End of the content block -->

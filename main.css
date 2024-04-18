@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #2a2a2a; /* Dark background */
+  color: #ffffff; /* Light text */
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* White headings */
+}
+
+.bg-gradient {
+  background: linear-gradient(135deg, #ff6b6b, #66a6ff); /* Gradient background */
+}
+
+.site-header {
+  background: linear-gradient(135deg, #FF512F, #DD2476); /* Gradient navbar */
+  padding: 1rem 0;
+}
+
+.site-header .navbar-brand {
+  color: #ffffff; /* White navbar brand */
+  font-weight: bold;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #ffffff; /* White navbar links */
+  transition: color 0.3s;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #f0f0f0; /* Light gray on hover */
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+.sidebar {
+  background-color: #36454f; /* Dark sidebar */
+  color: #cbd5db; /* Light gray text */
+  padding: 20px;
+}
+
+.sidebar a {
+  color: #cbd5db; /* Light gray sidebar links */
+  transition: color 0.3s;
+}
+
+.sidebar a:hover {
+  color: #ffffff; /* White on hover */
+}
+
+.content-section {
+  background: linear-gradient(135deg, #C33764, #1D2671); /* Gradient blog posts */
+  padding: 20px;
+  border-radius: 10%; /* Circular shape */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Shadow effect */
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #ffffff; /* White article titles */
+  font-size: 1.5rem;
+}
+
+a.article-title:hover {
+  color: #ffd54f; /* Yellow on hover */
+  text-decoration: none;
+}
+
+.article-content {
+  line-height: 1.6;
+  color: #cbd5db; /* Light gray text */
+}
+
+.article-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.article-metadata {
+  font-size: 0.9rem;
+  color: #8c9aa6; /* Gray metadata text */
+  margin-bottom: 10px;
+}
+
+.article-metadata a:hover {
+  color: #ffffff; /* White on hover */
+}
+
+.account-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.account-heading {
+  font-size: 2rem;
+  color: #ffffff; /* White heading */
+  margin-bottom: 20px;
+}
+
+.footer {
+  background: linear-gradient(135deg, #FF512F, #DD2476);
+  color: #ffffff; /* White text */
+  padding: 20px 0; /* Add some padding for spacing */
+}
+
+.footer span {
+  font-size: 14px; /* Adjust the font size */
+}
+
+.footer a {
+  color: #42a5f5; /* Light blue text for links */
+}
+
+.footer a:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
